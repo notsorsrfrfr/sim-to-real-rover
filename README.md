@@ -6,7 +6,7 @@ for sim-to-real transfer.
 
 ## Project Phases
 - [x] Phase 0: Setup & environment
-- [ ] Phase 1: Manual rover control via Python API
+- [x] Phase 1: Manual rover control via Python API
 - [ ] Phase 2: Gymnasium wrapper
 - [ ] Phase 3: RL training (PPO)
 - [ ] Phase 4: Domain randomization
