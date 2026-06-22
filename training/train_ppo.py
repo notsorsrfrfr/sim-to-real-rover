@@ -30,11 +30,11 @@ print("Starting training...")
 print("Watch the Unreal viewport - the car will start driving!")
 print("Training for 10,000 steps (about 5-10 minutes)...")
 
-model.learn(total_timesteps=10000)
+model.learn(total_timesteps=50000)
 
 print("Training complete! Saving model...")
 os.makedirs("../models", exist_ok=True)
-model.save("../models/ppo_rover_v1")
+model.save("../models/ppo_rover_v2")
 print("Model saved to models/ppo_rover_v1")
 
 env.close()
